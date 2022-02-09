@@ -18,18 +18,18 @@ CD - Continuos Delivery - https://aws.amazon.com/devops/continuous-delivery/
     - Using Elastic Beanstalk
 
 AWS Cloud 9 - https://docs.aws.amazon.com/cloud9/latest/user-guide/welcome.html
-    - Itis a cloud-based integrated development environment (IDE) that lets you write, run, and debug your code with just a browser. It includes a code editor, debugger, and terminal. You can run this development environment on a managed Amazon EC2 instance that automatically sleeps when you aren't using it.
+
+    - It is a cloud-based integrated development environment (IDE) that lets you write, run, and debug your code with just a browser. It includes a code editor, debugger, and terminal. You can run this development environment on a managed Amazon EC2 instance that automatically sleeps when you aren't using it.
 
 Elastic Beanstalk - https://aws.amazon.com/elasticbeanstalk/
+
     - Allow you have an easy way to deploy and manage the services and web applications that you build
     - Great for launching applications and for building your framework. Giving full control over yout application
     - Give us a simple way to launch your full application infrastructure while giving you control
     - Have the ability to configure with multiple timezones
     - Control and scalibility
-
     - Essentially, in Elastic Beanstalk, an application is just an organizational tool to help you group together all 
     of the components utilized for your launch.
-
     - To review, the parts of an Elastic Beanstalk application are, one, the application details such as the application
     versions and environment variables, two, the environment and it's configuration, and three, the source code bundled 
     in to a zip file.
