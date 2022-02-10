@@ -1,4 +1,4 @@
-CI - Continuous integration - https://aws.amazon.com/devops/continuous-integration/
+<b>CI - Continuous integration</b> - https://aws.amazon.com/devops/continuous-integration/
     - Is the build and unit testing stages of the software release process
     - Running automated build an test for any commit code
 
@@ -7,7 +7,8 @@ CI - Continuous integration - https://aws.amazon.com/devops/continuous-integrati
         - Build
         - Test
 
-CD - Continuos Delivery - https://aws.amazon.com/devops/continuous-delivery/
+<b>CD - Continuos Delivery</b> - https://aws.amazon.com/devops/continuous-delivery/
+
     - Code changes are automatically built, tested and prepared for a release
 
     Steps: 
@@ -17,11 +18,11 @@ CD - Continuos Delivery - https://aws.amazon.com/devops/continuous-delivery/
 
     - Using Elastic Beanstalk
 
-AWS Cloud 9 - https://docs.aws.amazon.com/cloud9/latest/user-guide/welcome.html
+<b>AWS Cloud 9</b> - https://docs.aws.amazon.com/cloud9/latest/user-guide/welcome.html
 
     - It is a cloud-based integrated development environment (IDE) that lets you write, run, and debug your code with just a browser. It includes a code editor, debugger, and terminal. You can run this development environment on a managed Amazon EC2 instance that automatically sleeps when you aren't using it.
 
-Elastic Beanstalk - https://aws.amazon.com/elasticbeanstalk/
+<b>Elastic Beanstalk</b> - https://aws.amazon.com/elasticbeanstalk/
 
     - Allow you have an easy way to deploy and manage the services and web applications that you build
     - Great for launching applications and for building your framework. Giving full control over yout application
