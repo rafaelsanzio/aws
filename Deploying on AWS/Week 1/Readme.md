@@ -1,4 +1,5 @@
 <b>CI - Continuous integration</b> - https://aws.amazon.com/devops/continuous-integration/
+
     - Is the build and unit testing stages of the software release process
     - Running automated build an test for any commit code
 
