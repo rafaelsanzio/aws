@@ -21,7 +21,9 @@
 
 <b>AWS Cloud 9</b> - https://docs.aws.amazon.com/cloud9/latest/user-guide/welcome.html
 
-    - It is a cloud-based integrated development environment (IDE) that lets you write, run, and debug your code with just a browser. It includes a code editor, debugger, and terminal. You can run this development environment on a managed Amazon EC2 instance that automatically sleeps when you aren't using it.
+    - It is a cloud-based integrated development environment (IDE) that lets you write, run, and debug your code with 
+    just a browser. It includes a code editor, debugger, and terminal. You can run this development environment on a 
+    managed Amazon EC2 instance that automatically sleeps when you aren't using it.
 
 <b>Elastic Beanstalk</b> - https://aws.amazon.com/elasticbeanstalk/
 
