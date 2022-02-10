@@ -32,10 +32,10 @@
 
     - On every code commit, we can initiate the CI/CD workflow, taking the code update through the automated tests
 
-    - <b>Source:</b> This can retrieve our code from CodeCommit, or other sources like S3 and GitHub are also supported.
-    - <b>Build:</b> This can be AWS CodeBuild doing something like building my Java code, or a third party integration like Jenkins, or CloudBees.
-    - <b>Test:</b> this could be CodeBuild, running some unit tests against my code, or a third party integration like BlazeMeter, is also supported.
-    - <b>Deploy:</b> we have chosen Elastic Beanstalk. We could use other AWS services like, AWS CloudFormation, AWS CodeDeploy, or third parties.
+    - Source: This can retrieve our code from CodeCommit, or other sources like S3 and GitHub are also supported.
+    - Build: This can be AWS CodeBuild doing something like building my Java code, or a third party integration like Jenkins, or CloudBees.
+    - Test: this could be CodeBuild, running some unit tests against my code, or a third party integration like BlazeMeter, is also supported.
+    - Deploy: we have chosen Elastic Beanstalk. We could use other AWS services like, AWS CloudFormation, AWS CodeDeploy, or third parties.
 
 
 Key Notes: 
