@@ -10,3 +10,4 @@
     containing the infrastructure definition and create infrastructure components based on whatever is described.
     - We can use JSON or YAML for the syntax of template to create your stack in CF.
     - It can be used to orchestrate your entire infrastructure set.
+    - CfnInit, allowing you to configure the operating system of EC2 instances that were created by the stack
