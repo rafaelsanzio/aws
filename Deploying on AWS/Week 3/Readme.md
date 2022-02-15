@@ -30,8 +30,11 @@
     but it is the collection of the files and scriptsthat will be used during your deployment.
 
     - AppSpec file: This is the main configuration logic of how the agent executes the deployments on the instances.
-    It contains locations for all of the installation files, scripts, and when to trigger specific actions
+    It contains locations for all of the installation files, scripts, and when to trigger specific actions.
+    This gives you the ability to have control over installing and configuring your application environment on your instance.
     
-    - Repository
+    - Repository: is simply the location where you store everything needed for your deployment.
     
-    - CodeDeploy agent
+    - CodeDeploy agent: The agent is the worker function operating within the system of each instance.
+    It is the one that gets the signal to execute a deployment from the CodeDeploy service, retrieves the files, 
+    evaluates the AppSpec file, executes the scripts, and verifies the deployment with the CodeDeploy service.
