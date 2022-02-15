@@ -1,6 +1,9 @@
 <b> CD - Continuos Delivery</b>
     
-    - Continuous delivery is a DevOps software development practice where code changes are automatically built, tested, and prepared for a release to production. It expands upon continuous integration by deploying all code changes to a testing environment and/or a production environment after the build stage. When continuous delivery is implemented properly, developers will always have a deployment-ready build artifact that has passed through a standardized test process
+    - Continuous delivery is a DevOps software development practice where code changes are automatically built, tested, 
+    and prepared for a release to production. It expands upon continuous integration by deploying all code changes 
+    to a testing environment and/or a production environment after the build stage. When continuous delivery is implemented 
+    properly, developers will always have a deployment-ready build artifact that has passed through a standardized test process
 
     - Cloud Formation
     - Code Deploy
