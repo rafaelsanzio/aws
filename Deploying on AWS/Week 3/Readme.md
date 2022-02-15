@@ -19,3 +19,19 @@
     - It helps you to easily create repeatable deployments to push your code out to your instances whether on premise or in a AWS.
     - It also able to maintain control while making your job much easier by using the tools and features provided
     - Able to tell it specifically what to do with any of the updates you were pushing out to your fleet.
+
+    - Application: this is simply an organizational structure that is used by CodeDeploy to group together related deployment groups.
+    In Code Deploy is the collection of deployment groups that are grouped together for the reasons you decide.
+
+    - Deployment group: is the way you group together your fleet of instances. Allows you to specify whether 
+    by scaling group or tags what instances will make up a group.
+    
+    - Revision: is another method of organization. It is not just a change that you are making, 
+    but it is the collection of the files and scriptsthat will be used during your deployment.
+
+    - AppSpec file: This is the main configuration logic of how the agent executes the deployments on the instances.
+    It contains locations for all of the installation files, scripts, and when to trigger specific actions
+    
+    - Repository
+    
+    - CodeDeploy agent
