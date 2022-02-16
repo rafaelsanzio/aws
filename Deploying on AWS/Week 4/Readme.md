@@ -50,7 +50,13 @@ Rolling Deployment
         to move traffic from your original environment to the new environment.
         Both allow you to easily roll back simply by moving the traffic back to the original environment.
         The biggest difference between the two is that red/black is an instant cut-over and blue/green is a gradual cut-over.
+        In the Blue/Green the benefit that you get is a smaller impact should errors start to occur, and you have 
+        the same rollback ability that you get with the red/black deployment styles.
 
     - Rolling: is an in-place deployment style that allows you to keep the same number of instances, 
     but deploy only to some at a time. Your changes are enacted on a small set of instances at a time.
     And the deployment doesn't move forward until that group of instances is successful.
+
+    - Canary instance:  is when you launch an instance in your already-existing environment, 
+    but the new instance is updated. Using this method allows you to test features and changes with low impact to your 
+    production environment, before launching full environments or initiating full deployments.
