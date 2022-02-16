@@ -23,6 +23,7 @@ Deployment Pipeline
 <b>Advancing AWS CodeDeploy</b> 
 
     Appspec File 
+    
         - is where you get the control over how your revision deployments are managed and what they do on your fleets.
         - isn't the actual document where you script the work being done by the CodeDeploy agent. Instead, it is the outline 
         of how the agent will perform its functions.
