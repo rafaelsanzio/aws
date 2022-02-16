@@ -5,7 +5,10 @@ Deployment Pipeline
 
 <b>AWS Systems Manager</b> - https://aws.amazon.com/systems-manager/
 
-    - Gives you visibility and control of your infrastructure on AWS. Systems Manager provides a unified user interface so you can view operational data from multiple AWS services and allows you to automate operational tasks across your AWS resources. While there is not a hands on exercise using Systems Manager, we encourage you to explore it on your own. There is no additional charge for AWS Systems Manager. 
+    - Gives you visibility and control of your infrastructure on AWS. Systems Manager provides a unified user interface 
+    so you can view operational data from multiple AWS services and allows you to automate operational tasks across 
+    your AWS resources. While there is not a hands on exercise using Systems Manager, we encourage you to explore it 
+    on your own. There is no additional charge for AWS Systems Manager. 
 
     - It is a managed service that simplifies resource and application management, shortens the time to detect and resolve 
     operational problems and makes it easy to operate and manage your running infrastructure.
