@@ -12,7 +12,12 @@
     - Collect metrics from your application and the deployed resources
     - Metrics important to operational performance can be sent and stored using a simple API.
 
-<b>AWS ElasticSearch</b>
+<b>AWS ElasticSearch</b> - https://aws.amazon.com/opensearch-service/
+
+    - It makes it easy to deploy, secure, operate, and scale Elasticsearch for log analytics, full text search, 
+    application monitoring, and more. Amazon Elasticsearch Service is a fully managed service that delivers 
+    Elasticsearch’s easy-to-use APIs and real-time analytics capabilities alongside the availability, scalability, 
+    and security that production workloads require.
 
     - is a NoSQL database that makes it easy to search and analyze your data.
     - it makes lots of sense to have your logs in Elasticsearch because it is a full text search database engine.
@@ -35,12 +40,6 @@
         AWS CloudTrail, Route 53, and other sources. You can then retrieve the associated log data from CloudWatch Logs.
         You can collect metrics from servers by installing the CloudWatch agent on the server. You can install the agent
         on both Amazon EC2 instances and on-premises servers, and on servers running either Linux or Windows Server.
-    
-    AWS Elasticsearch Service - https://aws.amazon.com/opensearch-service/
-        - It makes it easy to deploy, secure, operate, and scale Elasticsearch for log analytics, full text search, 
-        application monitoring, and more. Amazon Elasticsearch Service is a fully managed service that delivers 
-        Elasticsearch’s easy-to-use APIs and real-time analytics capabilities alongside the availability, scalability, 
-        and security that production workloads require.
 
     Kibana - https://aws.amazon.com/opensearch-service/the-elk-stack/kibana/
         - It is an open-source data visualization and exploration tool used for log and time series analytics, 
