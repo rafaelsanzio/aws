@@ -2,11 +2,11 @@
 
     - They are fundamental of network secutiry in AWS
     - Control how traffic is allowed into or out of our EC2 Instances
-
     - Only contain allow rules
     - Can reference by IP or by security group
 
     - Are acting as a "firewall" on EC2
+    
     - They regulate:
         - Access to ports
         - Authorised IP ranges - IPv4 and IPv6
