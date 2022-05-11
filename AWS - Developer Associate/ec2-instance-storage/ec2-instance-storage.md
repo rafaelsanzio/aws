@@ -100,3 +100,18 @@
         - EFS Scale
         - Performance mode (set at EFS creation)
         - Throughput mode 
+      
+    - EBS vs EFS : Elastic Block Storage
+      
+      - EBS: 
+        - can be only attached to only one instance at a time
+        - are locked at the Availability Zone (AZ) level 
+        - gp2: IO increase IO independently
+        - io1: can increase IO independently
+        
+      - EFS: 
+        - Mounting 100s of intances across AZ
+        - Share website files
+        - Only for Linux instances
+        
+
