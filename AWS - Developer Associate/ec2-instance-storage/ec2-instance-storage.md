@@ -79,7 +79,7 @@
     - EBS Multi Attach - IO1/IO2
       - Attach the same EBS Volume to multiple ECS instances in the same AZ
       - EC2 instance has full read and write permissions to the volume
-      - Usecase: 
+      - Use case: 
         - Achieve higher application availability in clustered Linux application 
         - Application must manage concurrent write operations
       - Must be a file system that's cluster-aware (not XFS, EX4)
@@ -87,4 +87,16 @@
     - EFS: Elastic File System
       - Manage NFS (network file system) that can be mounted on many EC2
       - It works with EC2 instances in multi AZ
-      - Highly available, scalable, expensive (3x GP2), pay per use 
+      - Highly available, scalable, expensive (3x GP2), pay per use
+
+      - Use cases: content management, web serving, data sharing, wordpress
+      - Uses security group to control access in EFS
+      - Compatible with Linux based AMI (not Windows)
+      - Encryption at rest using KMS
+
+      - File system scales automatically, pay-per-use, no capacity planning.
+      
+      - Performance and Storage
+        - EFS Scale
+        - Performance mode (set at EFS creation)
+        - Throughput mode 
