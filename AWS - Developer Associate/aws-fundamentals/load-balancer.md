@@ -62,3 +62,28 @@
     - Has one static IP per AZ, and supports assigning Elastic IP
     - Are used for extreme performance, TCP or UDP traffic
     - Not included in the AWS free tier
+
+    - Target Groups
+      - EC2 Instances
+      - IP Addresses: must be private IPs
+      - Application Load Balancer
+
+  - GLB (Gateway Load Balancer)
+    - The power of this is to analyze network traffic
+
+    - Deploy, scale, and manage a fleet of 3rd party network virtual appliances in AWS
+    - Example: 
+      - Firewalls
+      - Intrusion Detection 
+      - Prevention Systems
+      - Deep Packet Inspection System
+
+    - Combines the following function: 
+      - Transparent Network Gateway: single entry/exit for all traffic
+      - Load Balancer: distributes traffic to your virtual appliances
+    
+    - Uses the GENEVE protocol on por 6081
+
+    - Target Groups
+      - EC2 Instances
+      - IP Addresses: must be private IPs 
