@@ -26,3 +26,30 @@
   - CLB (Classic Load Balancer)
     - Supports TCP, HTTP and HTTPS
     - Fixed hostname
+
+  - ALB (Application Load Balancer)
+    - Load balancing to multiple HTTP applications across machines (target groups)
+    - Load balancing to multiple applications on the same machina (containers)
+    - Support for HTTP/2 and WebSocket
+    - Support redirects (HTTP and HTTPS)
+
+    - Routing tables to different target groups
+      - Based on path in URL
+      - Based on hostname in URL
+      - Base on Query String, Headers
+    
+    - ALB are a great fit for micro services & container-based application (Docker & ECS)
+    - Has a port mapping feature to redirect to a dynamic port in ECS
+    - In comparison, we would need multiple CLB per application
+
+    - Target Groups
+      - EC2 instances - HTTP
+      - ECS rasks - HTTP
+      - Lambda functions - HTTP Request is translated into a JSON event
+      - IP Addresses - must be provate IPs
+
+    - ALB can route to multiple target groups
+    - Health checks are at the target group level
+
+    - Fixed hostname
+    - The application servers don't see the IP of the client directly
