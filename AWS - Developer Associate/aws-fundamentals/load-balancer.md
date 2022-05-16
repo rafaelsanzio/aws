@@ -53,3 +53,17 @@
 
     - Fixed hostname
     - The application servers don't see the IP of the client directly
+  
+  - NLB (Network Load Balancer)
+    - Forward TCP & UDP traffic to your instances
+    - Handle millions of request per seconds
+    - Less latencty
+
+    - Has one static IP per AZ, and supports assigning Elastic IP
+    - Are used for extreme performance, TCP or UDP traffic
+    - Not included in the AWS free tier
+
+    - Target Groups
+      - EC2 Instances
+      - IP Addresses: must be private IPs
+      - Application Load Balancer
