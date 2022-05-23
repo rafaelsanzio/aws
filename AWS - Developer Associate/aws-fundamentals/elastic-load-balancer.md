@@ -69,4 +69,14 @@
 		- NLB (Network)
 			- Supports multiple listeners with multiple SSL certificates
 			- Uses Server Name Indication (SNI) to make it work
+	
+	- Connection Draining (CLB)
+		- Connection Draining for CLB
+		- Deregistration Delay for ALB and NLB
+
+		- Time to complete in-flight request while the instance is de-registering or unhealthy
+		- Stops sending new requests to the EC2 instance which is de-registering
+		- You can set between 1 to 3600 seconds
+		- Can be disabled (set value to 0)
+		- Set to a low value if your request are short
 
