@@ -37,8 +37,33 @@
 		- Scale based on a custom metric (number of connected users)
 
 ### Main notes
+
 	- Scaling policies can be on CPU, Network, and can even be on custom metrics or based on a schedule
 	- ASGs use Launch config ot Launch Templates
 	- IAM roles attached to an ASG will get assigned to EC2 instances
 	- Having instances under ASG means that if they get terminated for any reason, the ASG will automatically create a new ones as a replacement
 	- ASG can terminate instances marked as unhealthy by an LB (and hence replace them)
+
+### Scaling Policies
+
+	- Dynamic
+		- Target Tracking Scaling
+			- Ex: The average of ASG CPU to stay at around 40%
+		- Simple / Step Scaling
+			- When CloudWatch alarm is triggered (CPU > 70%), then add 2 units
+			- When CloudWatch alarm is triggered (CPU < 30%), then remove 1 unit
+		- Scheduled Actions
+			- Anticipate a scaling based on known usage patterns
+	
+	- Predictive
+		- Continuously forecast load ans schedule scaling ahead
+
+	- Good Metrics
+		- CPU Utilization: Average CPU utilization across your instances
+		- Request Count Per Target: to make sure the number of requests per EC2 instances is stable
+		- Average Network In / Out (if you are app is network bound)
+		- Any custom metric (that you push using CloudWatch)
+	
+	- Cooldowns
+		- After a scaling activity happens, you are in the cooldown period (default 300s)
+		- During the cooldown period, the ASG will not launch or terminate additional instances (to allow for metrics to stabilize)
