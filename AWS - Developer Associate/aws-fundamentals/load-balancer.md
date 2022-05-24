@@ -29,7 +29,7 @@
 
   - ALB (Application Load Balancer)
     - Load balancing to multiple HTTP applications across machines (target groups)
-    - Load balancing to multiple applications on the same machina (containers)
+    - Load balancing to multiple applications on the same machine (containers)
     - Support for HTTP/2 and WebSocket
     - Support redirects (HTTP and HTTPS)
 
@@ -46,7 +46,7 @@
       - EC2 instances - HTTP
       - ECS rasks - HTTP
       - Lambda functions - HTTP Request is translated into a JSON event
-      - IP Addresses - must be provate IPs
+      - IP Addresses - must be provide IPs
 
     - ALB can route to multiple target groups
     - Health checks are at the target group level
