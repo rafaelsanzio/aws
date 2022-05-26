@@ -39,3 +39,33 @@
 	- Have to set Maximum Storage Threshold (maximum limit for DB storage)
 	- Useful for applications with unpredictable workloads
 	- Supports all RDS database engines
+
+### Read Replicas
+
+	- Create up to 5 read replicas
+	- Within AZ, cross AZ or cross region
+	- Replication is ASYNC so reads are eventually consistent
+	- Replicas can be promoted to their own DB
+	- Applications must update the connection string to leverage read replicas
+
+	- The production application is unaffected
+	- Read replicas are used for SELECT statements
+
+	- For RDS read replicas within the same region, you don't pay that fee
+
+### Multi AZ (Disaster Recovery)
+
+	- SYNC replication
+	- One DNS name - automatic app failover to standby
+	- Increase availability
+	- Failover in case of loss of AZ, loss of network, instance or storage failure
+	- No manual intervention in apps
+	- Not used for scaling
+
+	- RDS from Single-AZ to Multi-AZ
+		- Zero downtime operation
+		- Just click on modify
+		- The following happens internally: 
+			- A snapshot is taken
+			- A new DB is restored from the snapshot in a new AZ
+			- Synchronization is established between the two databases
