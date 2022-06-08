@@ -34,4 +34,6 @@
     - No backup and restore
     - Multi-threaded architecture
 
+### Caching Implementation 
 
+  - https://aws.amazon.com/caching/implementation/considerations
