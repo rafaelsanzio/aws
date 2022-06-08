@@ -36,7 +36,7 @@
 
 ### Caching Implementation 
 
-  - https://aws.amazon.com/caching/implementation/considerations
+  - https://aws.amazon.com/caching/
 
 ### Replicaction
 
