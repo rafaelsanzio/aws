@@ -37,3 +37,24 @@
 ### Caching Implementation 
 
   - https://aws.amazon.com/caching/implementation/considerations
+
+### Replicaction
+
+  - Cluster Mode Disabled
+    - One primary node, up to 5 replicas
+    - Asynchronous replication
+    - The primary node is used for read/write
+    - The other nodes are read-only
+    - One shard, all nodes have all the data
+    - Guard against data loss if node failure
+    - Multi AZ enabled by default for failover
+    - Helpful to scale read performance
+
+  - Cluster Mode Enabled
+    - Data is partioned across shards (helpful to scale writes)
+    - Each shard has a primary and up to replica nodes (same concept as before)
+    - Multi-Az capability
+
+    - Up to 500 nodes per cluster
+      - 500 shards with single master
+      - 250 shard with 1 master and 1 replica
